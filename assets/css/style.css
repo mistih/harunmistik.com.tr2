@@ -1,0 +1,314 @@
+html {
+  font-size: 16px;
+  color: white;
+}
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: white;
+  background: #000000 url(../../assets/img/bg.gif);
+  color: #008000;
+  margin: 0;
+  padding: 0;
+}
+
+.chakra {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+::-webkit-input-placeholder {
+  color: #008000;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #008000;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #008000;
+}
+
+:-ms-input-placeholder {
+  color: #008000;
+}
+
+.avatar {
+  display: inline-block;
+  background-size: cover;
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rotating-image {
+  transition: transform 0.5s ease;
+}
+
+.image-container:hover .rotating-image {
+  animation: rotateImage 3s linear infinite;
+}
+
+@keyframes rotateImage {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+.intro-body {
+  text-align: justify;
+  padding: 1.3rem;
+  background: #000;
+  border: 1px solid #008000;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  margin-top: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana;
+  font-size: 11px;
+}
+
+A,
+.link {
+  color: #00c000;
+  text-decoration: none;
+  cursor: pointer;
+}
+A:hover,
+.link:hover,
+.YellowText a:hover,
+.RedText a:hover {
+  color: #00ff00 !important;
+}
+
+.button {
+  font-size: 10px;
+  font-weight: bold;
+  background: #004000;
+  color: #00ff00;
+  text-align: center;
+  border-bottom: 1px solid #002c00;
+  border-right: 1px solid #002c00;
+  border-left: 1px solid #008000;
+  border-top: 1px solid #008000;
+}
+.button:active {
+  font-size: 10px;
+  font-weight: bold;
+  background: #004000;
+  color: #00ff00;
+  text-align: center;
+  border-top: 1px solid #002c00;
+  border-left: 1px solid #002c00;
+  border-right: 1px solid #008000;
+  border-bottom: 1px solid #008000;
+}
+.button:focus {
+  outline: none;
+}
+
+.gold_img {
+  background: url(/img/gold.gif) center center no-repeat;
+  width: 12px;
+  height: 10px;
+  display: inline-block;
+}
+.lighttext {
+  color: #00c000;
+}
+.normal {
+  font-weight: normal;
+}
+.centertext {
+  text-align: center;
+  margin: 5px 0 5px 0;
+}
+.center {
+  text-align: center;
+  margin: 5px auto 5px auto;
+}
+.center ul {
+  text-align: left;
+  margin: 5px auto 5px auto;
+}
+.border {
+  border: 1px solid #008000;
+}
+.BigFont {
+  font-size: 14px;
+}
+.padding_2 {
+  padding: 2px 0px;
+}
+.relative {
+  position: relative;
+}
+.crossed {
+  text-decoration: line-through;
+  color: #777;
+}
+.crossed img {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);
+}
+.strong {
+  font-weight: bold;
+}
+.auto_height {
+  height: auto;
+}
+.smalltext {
+  font-size: 8px;
+}
+.GoldText {
+  color: #ffd800;
+}
+.GreenText {
+  color: #00c000;
+}
+.RedText,
+.RedText a {
+  color: #f87431;
+}
+.YellowText,
+.YellowText a {
+  color: #d6ef39;
+}
+.YellowTextGold {
+  color: #d6ef39;
+  background: url(/img/gold.gif) 0px 2px no-repeat;
+  padding-left: 15px;
+}
+.YellowTextBtc {
+  color: #d6ef39;
+  background: url(/img/btc12.png) 0px 0px no-repeat;
+  padding-left: 15px;
+}
+.SmallYellowText {
+  color: #d6ef39;
+  font-size: 9px;
+}
+.GreyText {
+  color: #555;
+}
+.WhiteText {
+  color: #fff;
+}
+.clear {
+  clear: both;
+}
+.float {
+  float: left;
+}
+.spacer_5px {
+  height: 5px;
+}
+.half_spacer {
+  height: 10px;
+}
+.spacer {
+  height: 15px;
+}
+.double_spacer {
+  height: 20px;
+}
+.triple_spacer {
+  height: 25px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 9px;
+  position: relative;
+}
+.footer h2 {
+  font-size: 10px;
+}
+.bugs {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: url(../../assets/img/report_error.jpg) center center no-repeat;
+  width: 104px;
+  height: 26px;
+  cursor: pointer;
+}
+.bugs:hover {
+  background: url(../../assets/img/report_error_hover.jpg) center center
+    no-repeat;
+}
+
+.powered {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  line-height: 32px;
+}
+.powered img {
+  float: left;
+}
+
+.refresh {
+  position: absolute;
+  top: 0px;
+  right: 2px;
+  background: url(../../assets/img/refresh.png) center center no-repeat;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.key_report {
+  width: 400px;
+  padding-left: 100px;
+  text-align: left;
+  font-size: 10px;
+  color: #008000;
+}
+.key_report a {
+  color: #00c000;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.menu {
+  width: 1000px;
+  margin: 0px auto 0px auto;
+  font-weight: bold;
+  line-height: 14px;
+}
+.menu_icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.menu_icon img {
+  height: 14px;
+}
+.head {
+  text-align: center;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #008000;
+}
